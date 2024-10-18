@@ -90,7 +90,6 @@ function confirmOrder() {
     // Optionally hide the message after a few seconds
     setTimeout(() => {
         successMessage.style.display = "none";
-        document.getElementById("orderImage").style.display = "none";
     }, 5000);
 }
 
