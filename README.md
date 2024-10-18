@@ -9,7 +9,7 @@
 * Extract the files to the desired folder
 * Open the extracted folder with VSCode
 * Go live or open the index.html file with chrome
-* And you are ready for the quiz
+
 
 ## Live server
 * You can view the web live on [MealMate](https://github.com/Jose-Barasa1/capstone-project.git)
