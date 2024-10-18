@@ -6,6 +6,7 @@ fetch("db.json")
     menuData=data
      displayMenu(menuData)
 })
+
   .catch(error=>console.error('Error fetching menu:',error))
 // Function to display the menu
 function displayMenu(menuData) {
@@ -86,7 +87,7 @@ function confirmOrder() {
     // Show success message
     const successMessage = document.getElementById("successMessage");
     successMessage.textContent = "Your order has been successfully submitted!";
-    successMessage.style.display = "block";
+    successMessage.style.display = "block"
     // Optionally hide the message after a few seconds
     setTimeout(() => {
         successMessage.style.display = "none";
