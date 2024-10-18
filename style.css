@@ -36,26 +36,6 @@ h1 {
 }
 
 
-/* Light mode styles */
-body.light-mode {
-    background-color: white;
-    color: black;
-}
-
-.menu-item.light-mode {
-    background-color: #f9f9f9;
-}
-
-/* Dark mode styles */
-body.dark-mode {
-    background-color: #333;
-    color: white;
-}
-
-.menu-item.dark-mode {
-    background-color: #444;
-}
-
 
 
 
