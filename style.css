@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    background-image: url('https://plus.unsplash.com/premium_photo-1728412897842-06f0fc4c2ec6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEyfHhqUFI0aGxrQkdBfHxlbnwwfHx8fHw%3D');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em; /* Smaller size for title */
+    color: #ff6347; /* Tomato color for the title */
+}
+
+.container {
+    max-width: 600px; /* Reduced max-width */
+    margin: 0 auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border: 2px solid #ff6347; /* Border color matching the title */
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s;
+}
+
+.menu-item:hover {
+    background-color: #f0f0f0; /* Light grey on hover */
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.food-img {
+    width: 50px; /* Fixed size for food images */
+    height: 50px;
+    border-radius: 5px; /* Slightly rounded corners */
+}
+
+.menu-item button, 
+.cart-item button {
+    background-color: #28a745; /* Green for buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.menu-item button:hover, 
+.cart-item button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+input[type="number"] {
+    width: 60px;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#cart {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f9f9f9; /* Light background for cart items */
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+#totalPrice {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #ff6347; /* Tomato color for total price */
+}
+
+#confirmOrderBtn {
+    background-color: #007bff; /* Blue for confirm button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    transition: background-color 0.3s;
+}
+
+#confirmOrderBtn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.success-message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #d4edda; /* Light green for success message */
+    color: #155724; /* Dark green text */
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.order-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+
