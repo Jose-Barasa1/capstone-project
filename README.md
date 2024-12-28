@@ -1,6 +1,6 @@
 ## MealMate 
 #### The app is my Food ordering app,18/10/2024
-#### **By Jose' Barasa**
+### **By Jose' Barasa**
 ## Description
  By simplifying the ordering procedure and enabling users to place orders straight from their smartphones, MealMate transforms the eating experience. The waitstaff's burden is greatly decreased by this creative method, freeing them up to concentrate on serving customers rather than taking orders. The software guarantees that consumers receive their meals precisely and on time by removing communication barriers, which raises customer satisfaction levels overall. In the end, our solution promotes a more effective dining atmosphere that benefits both customers and employees.
 
